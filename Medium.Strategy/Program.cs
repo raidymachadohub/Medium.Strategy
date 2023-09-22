@@ -8,7 +8,7 @@ using Microsoft.Extensions.Hosting;
 
 var host = CreateDefaultBuilder().Build();
 var _taskExecution = host.Services.GetService<ITaxExecution>();
-if(_taskExecution is not null) _taskExecution.GenerateAsync("SP");
+if(_taskExecution is not null) _taskExecution.Generate("SP");
 
 host.Run(); return;
 

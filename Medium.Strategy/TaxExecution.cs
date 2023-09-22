@@ -18,7 +18,7 @@ public class TaxExecution : ITaxExecution
     {
         _serviceProvider = serviceProvider;
     }
-    public void GenerateAsync(string code)
+    public void Generate(string code)
     {
         if (!_strategies.TryGetValue(code, out var getStrategy))
         {

@@ -2,5 +2,5 @@ namespace Medium.Strategy;
 
 public interface ITaxExecution
 {
-     void GenerateAsync(string code);
+     void Generate(string code);
 }
