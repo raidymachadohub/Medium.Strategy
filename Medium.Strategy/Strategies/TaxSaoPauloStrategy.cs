@@ -4,7 +4,7 @@ namespace Medium.Strategy.Strategies;
 
 public class TaxSaoPauloStrategy : ITaxSaoPauloStrategy
 {
-    public void BillAsync()
+    public void Bill()
     {
         Console.WriteLine("Geração nota fiscal São Paulo");
     }

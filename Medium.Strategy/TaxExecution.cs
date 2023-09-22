@@ -27,6 +27,6 @@ public class TaxExecution : ITaxExecution
         
         using var scope = _serviceProvider.CreateScope();
         var strategy = getStrategy(scope);
-        strategy.BillAsync();
+        strategy.Bill();
     }
 }

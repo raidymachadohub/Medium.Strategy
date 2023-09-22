@@ -2,5 +2,5 @@ namespace Medium.Strategy.Strategies.Interfaces;
 
 public interface ITaxStrategy
 {
-    void BillAsync();
+    void Bill();
 }
